@@ -1,9 +1,13 @@
-.about-page > section {
+/* 소개 페이지 전용 (cafe.css 뒤에 불러와서 덮어씀) */
+
+/* cafe.css의 3등분 규칙 해제 */
+.intro-page > section {
   flex: none;
   min-height: auto;
   display: block;
 }
 
+/* 상단 회색 제목 영역 */
 .page-title {
   background-color: #ddd;
   padding: 36px 20px;
@@ -19,7 +23,8 @@
   color: #555;
 }
 
-.about-page section h3 {
+/* 섹션 제목: 회색 바 + 왼쪽 굵은 선 */
+.intro-page section h3 {
   margin: 20px 4px 18px 20px;
   padding: 8px 12px;
   background-color: #eee;
@@ -28,10 +33,12 @@
   font-size: 16px;
 }
 
+/* 제목 영역 바로 아래 첫 섹션은 여백을 더 줌 */
 .page-title + section h3 {
   margin-top: 38px;
 }
 
+/* 인사말: 사진 + 글 */
 .greeting-content {
   display: flex;
   align-items: center;
@@ -69,23 +76,25 @@
   margin-bottom: 0;
 }
 
-.about-page table {
+/* 표 공통: 가로 꽉 차게 */
+.intro-page table {
   width: calc(100% - 24px);
   margin: 0 4px 20px 20px;
   border-collapse: collapse;
 }
 
-.about-page th,
-.about-page td {
+.intro-page th,
+.intro-page td {
   border: 1px solid #aaa;
   padding: 6px 12px;
   text-align: center;
 }
 
-.about-page th {
+.intro-page th {
   background-color: #eee;
 }
 
+/* 칸 너비 */
 .history-table th:first-child {
   width: 29%;
 }

@@ -1,0 +1,112 @@
+/* 소개 페이지 전용 (cafe.css 뒤에 불러와서 덮어씀) */
+
+/* cafe.css의 3등분 규칙 해제 */
+.about-page > section {
+  flex: none;
+  min-height: auto;
+  display: block;
+}
+
+/* 상단 회색 제목 영역 */
+.page-title {
+  background-color: #ddd;
+  padding: 36px 20px;
+}
+
+.page-title h2 {
+  margin: 0 0 8px;
+}
+
+.page-title p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* 섹션 제목: 회색 바 + 왼쪽 굵은 선 */
+.about-page section h3 {
+  margin: 20px 4px 18px 20px;
+  padding: 8px 12px;
+  background-color: #eee;
+  border-left: 4px solid #222;
+  border-bottom: none;
+  font-size: 16px;
+}
+
+/* 제목 영역 바로 아래 첫 섹션은 여백을 더 줌 */
+.page-title + section h3 {
+  margin-top: 38px;
+}
+
+/* 인사말: 사진 + 글 */
+.greeting-content {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  padding: 0 42px 0 20px;
+}
+
+.greeting-photo {
+  flex: 0 0 40%;
+  height: 200px;
+  background-color: #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  overflow: hidden;
+}
+
+.greeting-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.greeting-text {
+  flex: 1;
+}
+
+.greeting-text p {
+  margin: 0 0 16px;
+}
+
+.greeting-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* 표 공통: 가로 꽉 차게 */
+.about-page table {
+  width: calc(100% - 24px);
+  margin: 0 4px 20px 20px;
+  border-collapse: collapse;
+}
+
+.about-page th,
+.about-page td {
+  border: 1px solid #aaa;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.about-page th {
+  background-color: #eee;
+}
+
+/* 칸 너비 */
+.history-table th:first-child {
+  width: 29%;
+}
+
+.store-table th:nth-child(1) {
+  width: 17%;
+}
+
+.store-table th:nth-child(2) {
+  width: 27%;
+}
+
+.store-table th:nth-child(3) {
+  width: 26%;
+}

@@ -1,6 +1,3 @@
-/* 소개 페이지 전용 (cafe.css 뒤에 불러와서 덮어씀) */
-
-/* cafe.css의 3등분 규칙 해제 */
 .intro-page > section {
   flex: none;
   min-height: auto;

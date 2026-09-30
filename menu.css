@@ -1,0 +1,60 @@
+.menu-page > section {
+  flex: none;
+  min-height: auto;
+  display: block;
+}
+
+.page-title {
+  background-color: #ddd;
+  padding: 36px 20px;
+}
+
+.page-title h2 {
+  margin: 0 0 8px;
+}
+
+.page-title p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.menu-page section h3 {
+  margin: 20px 4px 18px 20px;
+  padding: 8px 12px;
+  background-color: #eee;
+  border-left: 4px solid #222;
+  border-bottom: none;
+  font-size: 16px;
+}
+
+.page-title + section h3 {
+  margin-top: 38px;
+}
+
+.menu-page .menu-list {
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 38px;
+  padding: 0 42px 16px 20px;
+}
+
+.menu-page .menu {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+.menu-page .photo {
+  height: 150px;
+  overflow: hidden;
+}
+
+.menu-page .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notice {
+  margin: 24px 20px;
+}

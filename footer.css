@@ -1,0 +1,12 @@
+/* 푸터 */
+footer {
+  margin-top: 40px;
+  padding: 12px 16px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 2px 0;
+}

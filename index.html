@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김하민 카페 소개</title>
+  <link rel="stylesheet" href="./cafe.css">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./footer.css">
+  <script defer src="./cafe.js"></script>
+</head>
+<body>
+  <header>
+    <h3>카페이름</h3>
+    <nav>
+      <a href="./index.html" class="active">홈</a>
+      <a href="./menu.html">메뉴</a>
+      <a href="./intro.html">소개</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2>어서옵쇼~</h2>
+      <p>안 온 사람은 있어도 한번만 온 사람은 없는 카페~</p>
+      <button onclick="menubogi();">메뉴 보기</button>
+    </section>
+
+    <section class="recommend">
+      <h3>추천 메뉴</h3>
+      <div class="menu-list">
+        <div class="menu" id="menu01">
+          <div class="photo">사진</div>
+          <div class="info">
+            <strong>아메리카노</strong>
+            <p>씁쓸한 아메리카노<br>저는 산미 없는거 좋아해요</p>
+            <span class="price">3,000원</span>
+          </div>
+        </div>
+
+        <div class="menu" id="menu02">
+          <div class="photo">사진</div>
+          <div class="info">
+            <strong>카페라떼</strong>
+            <p>고소한 우유화 샷의 조합<br>안 달아요 no sweet</p>
+            <span class="price">4,000원</span>
+          </div>
+        </div>
+        
+        <div class="menu" id="menu03">
+          <div class="photo"></div>
+          <div class="info">
+            <strong>블루베리 요거트 스무디</strong>
+            <p>블루베리랑 요거트가루랑 우유넣고 위이이이잉<br>사투리로 주문하시면 서비스 드림</p>
+            <span class="price">4,500원</span>
+          </div>
+        </div>
+
+        <div class="menu" id="menu04">
+          <div class="photo">사진</div>
+          <div class="info">
+            <strong>말차 프라페</strong>
+            <p>휘핑 올려드릴까요?<br>사장이 말차 좋아해서 넣음</p>
+            <span class="price">5,000원</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <h3>카페 소개</h3>
+      <div class="about-content">
+        <div class="store-photo">매장 사진</div>
+        <div class="about-text">
+          <p>카페 소개글</p>
+          <p>영업시간 9:00 ~ 22:00</p>
+          <table>
+            <tr><th>매장 수</th><th>메뉴 수</th><th>좌석 수</th></tr>
+            <tr><td>100개</td><td>12개</td><td>3석</td></tr>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>카페이름 | ~~~ 주소 비밀 ~~~ | 전화 뿌숨</p>
+    <p>Copyright 2026 김하민</p>
+  </footer>
+</body>
+</html>

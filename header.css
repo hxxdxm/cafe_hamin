@@ -1,0 +1,32 @@
+header{
+  background-color: rgb(58, 58, 58);
+  color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  gap:16px
+}
+a,
+a:visited{
+  color: rgb(235, 235, 235);
+}
+a.active{
+  color:gold
+}
+
+header h3 {
+  margin: 12px 0;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a.active {
+  color: yellow;
+}
